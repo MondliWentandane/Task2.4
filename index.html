@@ -8,7 +8,7 @@
 </head>
 <body>
     <nav>
-        <h1 style="margin-top: 70px; margin-left: 190px; font-size: 50px;">Computer Anatomy</h1>
+        <h1 style="margin-top: 15px; margin-left: 190px; font-size: 60px;;">Computer Anatomy</h1>
          <div id="buttonOne">
             <button>Features</button>
             <button>Courses</button>
@@ -20,10 +20,10 @@
          </div>
     </nav><br>
 
-    <div id="sectionOneOfOne">
+    <div id="sectionOne">
         <div id="littleContextID">
-              <h2 style="color: aliceblue;">What is the Function of the Computer Motherboard?</h2>
-              <p style="color: aliceblue;">A computer motherboard is one of the most integral elements of the modern <br>
+              <h2 style="">What is the Function of the Computer Motherboard?</h2>
+              <p style="">A computer motherboard is one of the most integral elements of the modern <br>
                 computer, and it has served as the focal point of operations since the days of the first <br>
                 desktop computers. Understanding the motherboard function can help you gain a better <br>
                 idea of how computers work and how all the various technology "under the hood" works together.</p>
@@ -33,8 +33,8 @@
                        <img src="assets/old-motherboard.jpeg" alt="old motherboard" width="400px" 
                             style="border-radius: 20px; border-style: solid;">
                       <figcaption>
-                        <h3 style="color: aliceblue;">Old Motherboard Version</h3>
-                        <p style="color: aliceblue;">Limited integrated features, often just basic <br>
+                        <h3 style="">Old Motherboard Version</h3>
+                        <p style="">Limited integrated features, often just basic <br>
                            ports. Components like graphics cards,<br>
                            sound cards, and network cards were<br>
                            typically add-in expansion cards. </p>
@@ -44,8 +44,8 @@
                        <img src="assets/new-Motherboard.jpg" alt="new motherboard" width="400px"
                             style="border-radius: 20px; border-style: solid;">
                        <figcaption>
-                        <h3 style="color: aliceblue;">New Motherboard Version</h3>
-                        <p style="color: aliceblue;">Modern motherboards integrate <br>
+                        <h3 style="">New Motherboard Version</h3>
+                        <p style="">Modern motherboards integrate <br>
                            a wider range of features, such<br>
                            as Wi-Fi, Bluetooth, built-in graphics<br>
                            (often), and faster USB ports (USB 3.0,<br>
@@ -57,79 +57,110 @@
         </div>
         <div id="imagesContext" style="">
             
-            <div id="theIDs">
-               <button  onclick="popUpReq('popDis1')">CPU chip</button>
+            <div id="theIDs" onclick="popUpReq('popDis1')">
+               <button>CPU chip</button>
                <div id="popDis1" class="hidden">
                   <img src="assets/CPU-slot.jpg" alt="">
                   <p style="color: aliceblue;">The central processing unit is the processor that controls all the functions of the computer system. The overall flow of task and functions are controlled by the central processing unit. For the computer system, the central processing unit is called the brain of the computer system.</p>
                </div>
             </div>
-            <div id="theIDs">
-                <button onclick="popUpReq('popDis2')">RAM slots</button>
+            <div id="theIDs" onclick="popUpReq('popDis2')">
+                <button>RAM slots</button>
                 <div id="popDis2" class="hidden">
                   <img src="assets/RAM-Slot.jpg" alt="">
                   <p style="color: aliceblue;">The RAM slots are used for connecting the RAM (memory) in the computer system. In the general computer system, there are mainly two RAM slots but sometimes there can be four-plus slots in the motherboard to increase the memory of the computer system.</p>
                </div>
             </div>
-            <div id="theIDs">
+            <div id="theIDs" onclick="popUpReq('popDis3')">
                 
-                <button onclick="popUpReq('popDis3')">Floppy Controller</button>
+                <button>Floppy Controller</button>
                 <div id="popDis3" class="hidden">
                   <img src="assets/Floppy-Controller.jpg" alt="">
                   <p style="color: aliceblue;">The older motherboard chip contains a 34-pin type ribbon cable for connecting the computer system with a floppy drive. In this ribbon cable, one end is directly connected with the computer system and one end is connected with the motherboard.</p>
                </div>
             </div>
-            <div id="theIDs">
+            <div id="theIDs" onclick="popUpReq('popDis4')">
                 
-                <button onclick="popUpReq('popDis4')">IDE controller</button>
+                <button>IDE controller</button>
                 <div id="popDis4" class="hidden">
                   <img src="assets/IDE.jpg" alt="">
                   <p style="color: aliceblue;">The integrated drive electronics are also known as ATA or Parallel ATA. The IDE is the type of component that issued for hard drive control. In today’s computer system, the IDE controller supports is not supported.</p>
                </div>
             </div>
-            <div id="theIDs">
+            <div id="theIDs" onclick="popUpReq('popDis5')">
                 
-                <button onclick="popUpReq('popDis5')">PCI slot</button>
+                <button>PCI slot</button>
                 <div id="popDis5" class="hidden">
                   <img src="assets/PCI.jpg" alt="">
                   <p style="color: aliceblue;">The full form of PCI is a peripheral component interface. The PCI slot is mainly used to insert the expansion cards on the computer. The other PCI devices can also be connected like a sound card, network card, video, card, modems, and other device3s. In today’s computer system support for PCI expansion slots are not there.</p>
                </div>
             </div>
-            <div id="theIDs">
+            <div id="theIDs" onclick="popUpReq('popDis6')">
                 
-                <button  onclick="popUpReq('popDis6')"> ISA slot</button>
+                <button > ISA slot</button>
                 <div id="popDis6" class="hidden">
                   <img src="assets/ISA.jpg" alt="">
                   <p style="color: aliceblue;">Industry-standard architecture (ISA) is defined as standard architecture for expansion bus. The ISA slot issued for connecting input devices and modems.</p>
                </div>
             </div>
-            <div id="theIDs">
+            <div id="theIDs" onclick="popUpReq('popDis7')">
                 
-                <button  onclick="popUpReq('popDis7')">CMOS Battery</button>
+                <button >CMOS Battery</button>
                 <div id="popDis7" class="hidden">
                   <img src="assets/CMOS.jpg" alt="">
                   <p style="color: aliceblue;">The CMOS battery is used for storing the BIOS settings on the motherboard. The CMOS battery is also capable of storing the time and data in it.</p>
                </div>
             </div>
-            <div id="theIDs">
+            <div id="theIDs" onclick="popUpReq('popDis8')">
                
-                <button onclick="popUpReq('popDis8')">AGP slot</button>
+                <button>AGP slot</button>
                 <div id="popDis8" class="hidden">
                   <img src="assets/AGP.jpg" alt="">
                   <p style="color: aliceblue;">AGP (Accelerated Graphics slot) is a type of computer slot that is used for attaching the video card to the system. This slot is a high-speed slot so that data transfer can be done at high speed</p>
                </div>
             </div>
-            <div id="theIDs">
+            <div id="theIDs" onclick="popUpReq('popDis9')">
                 
-                <button onclick="popUpReq('popDis9')">CPU</button>
+                <button>CPU</button>
                 <div id="popDis9" class="hidden">
                   <img src="assets/CPU.jpg" alt="">
                   <p style="color: aliceblue;">The Central Processing Unit (CPU) is the "brain" of a computer, responsible for executing instructions and performing calculations. It's the core component that handles all the tasks a computer performs, from running the operating system to processing data for applications. </p>
                </div>
-            </div>   
+            </div>
             
         </div>
     </div>
+    <div id="sectionTwo">
+      <div id="sectionTwoOfOne">
+         <img src="assets/course1.jpg" alt="course1 image">
+         <img src="assets/course2.jpg" alt="course2 images">
+         <img src="assets/course3.png" alt="course3 image">
+      </div>
+      <div id="sectionTwoOfTwo">
+         <h3>Take Our Online Course</h3>
+           <p>Choose Sign Up Option</p>
+           <div style="display: inline-flex; gap: 50px;">
+               <div id="icons"><img src="assets/Facebook-icon.png" alt="facebook icon" width="30" height="30"> FaceBook</div>
+               <div id="icons"><img src="assets/Google-icon.png" alt=" google icon" width="30" height="30"> Google</div> 
+           </div>  
+           <p>__________OR __________</p>
+           <h3>Login</h3>
+           <table style="margin-left: 130px;">
+              <tr>
+               <td>
+                  <input type="text" name="username" placeholder="Username..." required>
+               </td>
+              </tr>
+              <tr>
+               <td> <input type="password" name="password" placeholder="Password..." required></td>
+              </tr>
+           </table>
+
+
+
+      </div>
+      
+    </div><br>
 
     <footer>
 

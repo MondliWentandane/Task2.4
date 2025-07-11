@@ -39,7 +39,7 @@ button{
     width: 100px;
     font-size: medium;
     background-color: cornflowerblue;
-    color: rgb(24, 26, 27);
+    color: rgb(32, 36, 37);
 }
 nav button:hover {
     background-color: royalblue;
@@ -97,8 +97,12 @@ nav button:hover {
  }
 
 footer{
-    background-color: cornflowerblue;
-    height: 100px;
+    background-color: rgb(53, 75, 114);
+    height: 140px;
+    width: 1870px;
+    color: aliceblue;
+    display: inline-flex;
+    gap: 700px;
 }
 #imagesStyle .button {
   margin-left: 20px;
@@ -132,24 +136,37 @@ footer{
 }
 
 #sectionTwoOfOne{
-    height: 450px;
+    font-family: monospace;
+    height: 650px;
     width: 850px;
 }
 #sectionTwoOfTwo{
-    height: 450px;
+    background-color: rgb(114, 124, 141);
+    height: 650px;
     width: 600px;
     text-align: center;
     font-size: 30px;
+    border-style: solid;
 }
 #sectionTwoOfOne img{
-    width: 300px;
-    height: 200px;
+    margin-left: 20px;
+    margin-top: 20px;
+    width: 350px;
+    height: 250px;
+    border-radius: 20px;
+    border-style: solid;
 }
 #sectionTwo{
-    margin-bottom: 560px;
+    margin-top: 100px;
+    margin-bottom: 360px;
     display: inline-flex;
 
     margin-left: 200px;
+}
+table button{
+    width: 300px;
+    height: 40px;
+    font-size: 25px;
 }
 
 #icons{
